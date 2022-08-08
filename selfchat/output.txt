@@ -1,0 +1,568 @@
+2022-08-03 16:34:24.575576: E tensorflow/stream_executor/cuda/cuda_driver.cc:271] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+
+                                 /@&%###%&&@@#
+                      .,*/((((##@@@&%%#%%&&@@@&%%#/*.
+             #@@&&&%%%%##(((///*****//(((###%%%&&&@@@@@&&%#%%#.
+         .%&@@@@@&&&%%%####((((////((((####%%%&&&@@@@@&&%%#%%####,
+           ./,,#(//**,,.....,,,,***////((((########%%%%%%%%###(((
+              /*(//**,,,....,,,,***////((((########%%%%%%%%###(#%*
+               (*,...      ...,,,***//////((((((///////(/*...,/#@@@(
+               **,,..         ...,,,,,,,,,,........,,*///*...*(#@@@@&&*
+               ./,,..          ...,,,,,,,,,........,,*//*,...*#/,,,,,/%#
+                (*,..          ...,,,,,,,,,........,,*//*,..,/(      .,#(
+                **,..          ...,,,,,,,,,.........,*//*,..,((       .,(#
+                 /*,..          ....,,,,,,,.....  ..,***,,,,(#         ..#&
+                 **,..          ....,,,,,,,....   ..,***,,,*#.         .,%@
+                 ./,...       B l e n d e r B o t ...***,,,*#          .*%@
+                  /*,..          ...,,,,,,,....    .,**,,,,/#         ..(%/
+                  /*,,..         ...,,,,,,,...    ..,*,,,,,(.         ..#&
+                  ,/*,..         ...,,,,,,,...    ..,*,,,,*#         ..*%(
+                   /*,..         ...,,,,,.....    ..,*,*,,/(         ..#&
+                   /**,..        ...,,,,.....    ...,***,*(.       ,,(%.
+                    (/*,,..      ....,,.....     ...,****(&@@@&&&#,
+                     (/*,,...   .....,,......     ..,****#@,
+                     *(/*,,/....*(###%(,(%%##(*.  ./,,**(
+                      ,//**(,........,/((#.........*,**(
+                      .(#//*,,,,,,.*.,/((%/,,.....,,*/@
+                    ((######//****,/.,/(#%#***,***(&@@@@@(
+                   *&%%#####%%%%%%%#//(#%&%%&&@@@@@@@@@@@@*
+                   &&%%%###((((((####%%%%&&&&&@@@@@@@@@@&&@.
+                  *##%%%##(((((((####%%%%%&&&&@@@@@@@@@&#/*,
+                 .(##%#/,  .,*((##%%%&&&&%%%#####%&&@&&%#(/*.
+                 /(###(,   .,*/(##%%%&&&&%%%######%&&&&%#(/*,
+                */((((*.  ..,//((##%%%%%%%%#######%&&&&%%#(/*,
+               .//(((/,   .,*//((###%%%%%%########%%&&&%%#((/,.
+              .&####(((((((((######%%%%%%%%&&&&&&&@@@@@@@@@@@@@#
+               *&#.   .*/((((#######%%%%%%&&&&&&&@@@@@#/.   (&/
+16:34:26 | building data: /usr/local/lib/python3.7/dist-packages/data/models/blender/blender_1Bdistill/BST1Bdistill_v1.1.tgz
+16:34:26 | Downloading http://parl.ai/downloads/_models/blender/BST1Bdistill_v1.1.tgz to /usr/local/lib/python3.7/dist-packages/data/models/blender/blender_1Bdistill/BST1Bdistill_v1.1.tgz
+Downloading BST1Bdistill_v1.1.tgz: 100% 2.64G/2.64G [01:05<00:00, 40.5MB/s]
+16:36:31 | Overriding opt["model_file"] to /usr/local/lib/python3.7/dist-packages/data/models/blender/blender_1Bdistill/model (previously: /checkpoint/ems/2020_antiscaling/sweeps/s2020_08_28__blender/00_distill/004/ede/model)
+16:36:31 | Overriding opt["inference"] to nucleus (previously: beam)
+16:36:31 | Overriding opt["task"] to blended_skill_talk (previously: blended_skill_talk,wizard_of_wikipedia,convai2:normalized,empathetic_dialogues)
+16:36:31 | loading dictionary from /usr/local/lib/python3.7/dist-packages/data/models/blender/blender_1Bdistill/model.dict
+16:36:31 | num words = 8008
+16:36:31 | TransformerGenerator: full interactive mode on.
+16:36:57 | Total parameters: 1,437,393,920 (1,436,738,560 trainable)
+16:36:57 | Loading existing model params from /usr/local/lib/python3.7/dist-packages/data/models/blender/blender_1Bdistill/model
+16:37:03 | Agent 1 Opt:
+16:37:03 |     activation: gelu
+16:37:03 |     adafactor_eps: '[1e-30, 0.001]'
+16:37:03 |     adam_eps: 1e-08
+16:37:03 |     add_p1_after_newln: False
+16:37:03 |     aggregate_micro: False
+16:37:03 |     allow_missing_init_opts: False
+16:37:03 |     attention_dropout: 0.0
+16:37:03 |     batchsize: 32
+16:37:03 |     beam_block_full_context: True
+16:37:03 |     beam_block_list_filename: None
+16:37:03 |     beam_block_ngram: 3
+16:37:03 |     beam_context_block_ngram: 3
+16:37:03 |     beam_delay: 30
+16:37:03 |     beam_length_penalty: 0.65
+16:37:03 |     beam_min_length: 20
+16:37:03 |     beam_size: 10
+16:37:03 |     betas: '[0.9, 0.999]'
+16:37:03 |     bpe_add_prefix_space: True
+16:37:03 |     bpe_debug: False
+16:37:03 |     bpe_dropout: None
+16:37:03 |     bpe_merge: /usr/local/lib/python3.7/dist-packages/data/models/blender/blender_1Bdistill/model.dict-merges.txt
+16:37:03 |     bpe_vocab: /usr/local/lib/python3.7/dist-packages/data/models/blender/blender_1Bdistill/model.dict-vocab.json
+16:37:03 |     checkpoint_activations: False
+16:37:03 |     chosen_topic_delimiter: '\n'
+16:37:03 |     compute_tokenized_bleu: False
+16:37:03 |     datapath: /usr/local/lib/python3.7/dist-packages/data
+16:37:03 |     datatype: train
+16:37:03 |     delimiter: '  '
+16:37:03 |     dict_class: parlai.core.dict:DictionaryAgent
+16:37:03 |     dict_endtoken: __end__
+16:37:03 |     dict_file: /usr/local/lib/python3.7/dist-packages/data/models/blender/blender_1Bdistill/model.dict
+16:37:03 |     dict_include_test: False
+16:37:03 |     dict_include_valid: False
+16:37:03 |     dict_initpath: None
+16:37:03 |     dict_language: english
+16:37:03 |     dict_loaded: True
+16:37:03 |     dict_lower: False
+16:37:03 |     dict_max_ngram_size: -1
+16:37:03 |     dict_maxexs: -1
+16:37:03 |     dict_maxtokens: -1
+16:37:03 |     dict_minfreq: 0
+16:37:03 |     dict_nulltoken: __null__
+16:37:03 |     dict_starttoken: __start__
+16:37:03 |     dict_textfields: text,labels
+16:37:03 |     dict_tokenizer: bytelevelbpe
+16:37:03 |     dict_unktoken: __unk__
+16:37:03 |     display_add_fields: 
+16:37:03 |     display_examples: False
+16:37:03 |     download_path: None
+16:37:03 |     dropout: 0.1
+16:37:03 |     dynamic_batching: None
+16:37:03 |     embedding_projection: random
+16:37:03 |     embedding_size: 2560
+16:37:03 |     embedding_type: random
+16:37:03 |     embeddings_scale: True
+16:37:03 |     encoder_loss_coeff: 0.5
+16:37:03 |     eval_batchsize: None
+16:37:03 |     evaltask: None
+16:37:03 |     ffn_size: 10240
+16:37:03 |     force_fp16_tokens: True
+16:37:03 |     fp16: True
+16:37:03 |     fp16_impl: mem_efficient
+16:37:03 |     gpu: -1
+16:37:03 |     gradient_clip: 0.1
+16:37:03 |     hidden_loss_coeff: 8.0
+16:37:03 |     hide_labels: False
+16:37:03 |     history_add_global_end_token: end
+16:37:03 |     history_reversed: False
+16:37:03 |     history_size: -1
+16:37:03 |     image_cropsize: 224
+16:37:03 |     image_mode: raw
+16:37:03 |     image_size: 256
+16:37:03 |     include_checked_sentence: True
+16:37:03 |     include_initial_utterances: True
+16:37:03 |     include_knowledge: True
+16:37:03 |     include_knowledge_separator: False
+16:37:03 |     include_personas: True
+16:37:03 |     inference: nucleus
+16:37:03 |     init_model: None
+16:37:03 |     init_opt: /checkpoint/ems/2020_antiscaling/misc/blender_3b__sanitized.opt
+16:37:03 |     interactive_mode: True
+16:37:03 |     invsqrt_lr_decay_gamma: -1
+16:37:03 |     is_debug: False
+16:37:03 |     label_truncate: 128
+16:37:03 |     label_type: response
+16:37:03 |     learn_positional_embeddings: False
+16:37:03 |     learningrate: 5e-05
+16:37:03 |     log_every_n_secs: 10.0
+16:37:03 |     log_keep_fields: all
+16:37:03 |     loglevel: info
+16:37:03 |     lr_scheduler: reduceonplateau
+16:37:03 |     lr_scheduler_decay: 0.5
+16:37:03 |     lr_scheduler_patience: 3
+16:37:03 |     max_lr_steps: -1
+16:37:03 |     max_train_time: -1.0
+16:37:03 |     metrics: default
+16:37:03 |     model: transformer/generator
+16:37:03 |     model_file: /usr/local/lib/python3.7/dist-packages/data/models/blender/blender_1Bdistill/model
+16:37:03 |     model_parallel: False
+16:37:03 |     momentum: 0
+16:37:03 |     multitask_weights: '[1.0, 3.0, 3.0, 3.0]'
+16:37:03 |     mutators: None
+16:37:03 |     n_decoder_layers: 12
+16:37:03 |     n_encoder_layers: 2
+16:37:03 |     n_heads: 32
+16:37:03 |     n_layers: 2
+16:37:03 |     n_positions: 128
+16:37:03 |     n_segments: 0
+16:37:03 |     nesterov: True
+16:37:03 |     no_cuda: False
+16:37:03 |     num_epochs: -1
+16:37:03 |     num_self_chats: 20
+16:37:03 |     num_topics: 5
+16:37:03 |     nus: [0.7]
+16:37:03 |     optimizer: mem_eff_adam
+16:37:03 |     outfile: selfchat/merge_sgd_20.json
+16:37:03 |     output_scaling: 1.0
+16:37:03 |     override: "{'model_file': '/usr/local/lib/python3.7/dist-packages/data/models/blender/blender_1Bdistill/model', 'inference': 'nucleus', 'num_self_chats': 20, 'task': 'blended_skill_talk', 'include_personas': True, 'include_initial_utterances': True, 'outfile': 'selfchat/merge_sgd_20.json'}"
+16:37:03 |     parlai_home: /checkpoint/edinan/20200331/finetune_bst_gen_baseline_convai2_normal/ParlAI
+16:37:03 |     partner_model_file: None
+16:37:03 |     partner_opt_file: None
+16:37:03 |     person_tokens: False
+16:37:03 |     pred_loss_coeff: 32.0
+16:37:03 |     rank_candidates: False
+16:37:03 |     relu_dropout: 0.0
+16:37:03 |     remove_political_convos: False
+16:37:03 |     save_after_valid: True
+16:37:03 |     save_every_n_secs: -1
+16:37:03 |     save_format: conversations
+16:37:03 |     seed: 42
+16:37:03 |     seed_messages_from_file: None
+16:37:03 |     seed_messages_from_task: False
+16:37:03 |     selfchat_max_turns: 6
+16:37:03 |     selfchat_task: True
+16:37:03 |     share_word_embeddings: True
+16:37:03 |     short_final_eval: False
+16:37:03 |     skip_generation: True
+16:37:03 |     special_tok_lst: None
+16:37:03 |     split_lines: False
+16:37:03 |     starttime: Sep11_10-57
+16:37:03 |     task: blended_skill_talk
+16:37:03 |     task_loss_coeff: 1.0
+16:37:03 |     teacher_model: zoo:blender/blender_3B/model
+16:37:03 |     temperature: 1.0
+16:37:03 |     tensorboard_log: False
+16:37:03 |     text_truncate: 128
+16:37:03 |     topk: 10
+16:37:03 |     topp: 0.9
+16:37:03 |     train_experiencer_only: False
+16:37:03 |     truncate: 128
+16:37:03 |     update_freq: 2
+16:37:03 |     use_reply: label
+16:37:03 |     validation_cutoff: 1.0
+16:37:03 |     validation_every_n_epochs: 0.25
+16:37:03 |     validation_every_n_secs: -1
+16:37:03 |     validation_max_exs: -1
+16:37:03 |     validation_metric: ppl
+16:37:03 |     validation_metric_mode: min
+16:37:03 |     validation_patience: 10
+16:37:03 |     validation_share_agent: False
+16:37:03 |     variant: prelayernorm
+16:37:03 |     verbose: False
+16:37:03 |     warmup_rate: 0.0001
+16:37:03 |     warmup_updates: 100
+16:37:03 |     weight_decay: None
+16:37:05 | Current internal commit: 1fdd8713b76dca04a11791519e9a445afe7aa35f
+16:37:05 | Current fb commit: 1fdd8713b76dca04a11791519e9a445afe7aa35f
+16:37:05 | creating task(s): blended_skill_talk
+[ loading personas.. ]
+
+  [NOTE: In the BST paper both partners have a persona.
+         You can choose to ignore yours, the model never sees it.
+         In the Blender paper, this was not used for humans.
+         You can also turn personas off with --include-personas False]
+
+[building data: /usr/local/lib/python3.7/dist-packages/data/blended_skill_talk]
+16:37:05 | Downloading http://parl.ai/downloads/blended_skill_talk/blended_skill_talk.tar.gz to /usr/local/lib/python3.7/dist-packages/data/blended_skill_talk/blended_skill_talk.tar.gz
+Downloading blended_skill_talk.tar.gz: 100% 38.1M/38.1M [00:02<00:00, 14.5MB/s]
+16:37:10 | Downloading http://parl.ai/downloads/blended_skill_talk/personas_list.txt to /usr/local/lib/python3.7/dist-packages/data/blended_skill_talk/persona_list.txt
+Downloading persona_list.txt: 0.00B [00:01, ?B/s]
+16:37:11 | Downloading http://parl.ai/downloads/blended_skill_talk/topic_to_persona_list.txt to /usr/local/lib/python3.7/dist-packages/data/blended_skill_talk/topic_to_persona_list.txt
+Downloading topic_to_persona_list.txt: 0.00B [00:00, ?B/s]
+16:37:12 | Downloading http://parl.ai/downloads/blended_skill_talk/ed_persona_topicifier__train__both_sides.json to /usr/local/lib/python3.7/dist-packages/data/blended_skill_talk/ed_persona_topicifier__train__both_sides.json
+Downloading ed_persona_topicifier__train__both_sides.json: 0.00B [00:02, ?B/s]
+16:37:15 | Downloading http://parl.ai/downloads/blended_skill_talk/ed_persona_topicifier__train__experiencer_only.json to /usr/local/lib/python3.7/dist-packages/data/blended_skill_talk/ed_persona_topicifier__train__experiencer_only.json
+Downloading ed_persona_topicifier__train__experiencer_only.json: 0.00B [00:04, ?B/s]
+16:37:19 | Downloading http://parl.ai/downloads/blended_skill_talk/ed_persona_topicifier__valid__experiencer_only.json to /usr/local/lib/python3.7/dist-packages/data/blended_skill_talk/ed_persona_topicifier__valid__experiencer_only.json
+Downloading ed_persona_topicifier__valid__experiencer_only.json: 0.00B [00:03, ?B/s]
+16:37:23 | Downloading http://parl.ai/downloads/blended_skill_talk/ed_persona_topicifier__test__experiencer_only.json to /usr/local/lib/python3.7/dist-packages/data/blended_skill_talk/ed_persona_topicifier__test__experiencer_only.json
+Downloading ed_persona_topicifier__test__experiencer_only.json: 0.00B [00:14, ?B/s]
+16:37:37 | Downloading http://parl.ai/downloads/blended_skill_talk/safe_personas_2.txt to /usr/local/lib/python3.7/dist-packages/data/blended_skill_talk/safe_personas.txt
+Downloading safe_personas.txt: 0.00B [00:02, ?B/s]
+16:37:39 | Downloading http://parl.ai/downloads/blended_skill_talk/human_annotations.json to /usr/local/lib/python3.7/dist-packages/data/blended_skill_talk/human_annotations.json
+Downloading human_annotations.json: 0.00B [00:01, ?B/s]
+Loading /usr/local/lib/python3.7/dist-packages/data/blended_skill_talk/train.json.
+Saving to /usr/local/lib/python3.7/dist-packages/data/blended_skill_talk/train.txt
+Loading /usr/local/lib/python3.7/dist-packages/data/blended_skill_talk/valid.json.
+Saving to /usr/local/lib/python3.7/dist-packages/data/blended_skill_talk/valid.txt
+Loading /usr/local/lib/python3.7/dist-packages/data/blended_skill_talk/test.json.
+Saving to /usr/local/lib/python3.7/dist-packages/data/blended_skill_talk/test.txt
+[context]: your persona: i'm a savage.
+your persona: i'm stuck in the past due to remotness.
+I was heartbroken when my grandma passed away, I was not equipped to handle that
+I don't take death well either!
+   [context]: your persona: i'm committed to the environment.
+your persona: i play music in my spare time.
+I was heartbroken when my grandma passed away, I was not equipped to handle that
+I don't take death well either!
+[TransformerGenerator_1]: I understand. Death is a scary thing. How old were you when she passed?   
+   [TransformerGenerator_2]: I was 12 when she died. I had to finish school to take care of her. What about you?
+[TransformerGenerator_1]: I was 2 when she got sick.  I still remember my Dad taking care of me when she was sick.
+   [TransformerGenerator_2]: That's really sweet of your dad. What kind of things did you do with your father? 
+[TransformerGenerator_1]: Well, we spent a lot of time together.  He traveled a lot, so he had to keep up with me and my siblings.
+   [TransformerGenerator_2]: That sounds like a great way to spend time together! Do you and your family get along well?
+[TransformerGenerator_1]: It depends on the day of the week.  We usually do get along.  Did you have a good time with your family?
+   [TransformerGenerator_2]: Yeah, we did. It was a lot different than back in the day though, but it was nice.
+[TransformerGenerator_1]: Yeah I can imagine.  It's good to remember the good times though.  Were you married?
+   [TransformerGenerator_2]: I was.  My husband and I were married over 20 years.  How about you, were you married or dating when you were younger?
+-- end of episode --
+16:47:30 | 5.0% complete (1 / 20), 0:09:45 elapsed, 3:05:17 eta
+[context]: your persona: i enjoy going on hikes.
+your persona: i'm one of four children.
+I voted today and can't wait to hear the results.
+Oh. Who did you vote for?
+   [context]: your persona: halloween is my favorite holiday.
+your persona: i like alternative rock.
+I voted today and can't wait to hear the results.
+Oh. Who did you vote for?
+[TransformerGenerator_1]: I voted for Clinton. I think she's going to do a good job. How about you?
+   [TransformerGenerator_2]: I think so, too. I can't believe people will still vote for her after seeing all that she has done.
+[TransformerGenerator_1]: I know! I think people either like her or hate her. She doesn't know what she's doing!
+   [TransformerGenerator_2]: She seems to think she knows everything, doesn't she? But hey, different strokes for different folks, right?
+[TransformerGenerator_1]: Very true! Do you have any kids? I've 4 of them. They're all grown.
+   [TransformerGenerator_2]: I've a 1.5 year old. His name is Oscar. How old are your kids?
+[TransformerGenerator_1]: 4, 8, and 10. They keep me on my toes!  Do you work?
+   [TransformerGenerator_2]: I work part time at a local school. What about you, do you work, and what do you do?
+[TransformerGenerator_1]: I'm a student, so no work right now. Do you enjoy working at the school? 
+   [TransformerGenerator_2]: It's definitely time consuming, but I enjoy working with students. How do you like being a student?
+-- end of episode --
+16:55:38 | 10.0% complete (2 / 20), 0:17:52 elapsed, 2:40:55 eta
+[context]: your persona: i also own a cupcake business.
+your persona: i am always late.
+Tardiness
+What are common reasons why people like you are late?
+Probably is one of attendance issues, along with the absence from work and failure to properly notify about absence or being late.
+   [context]: your persona: i am a waitress at a local restaurant.
+your persona: i'm overall happy with life.
+Tardiness
+What are common reasons why people like you are late?
+Probably is one of attendance issues, along with the absence from work and failure to properly notify about absence or being late.
+[TransformerGenerator_1]: I have the same issues because I am always so bad at being on time. I need to work on my self-esteem
+   [TransformerGenerator_2]: I understand. I used to be the same. I'm very happy with my life right now, so I don't have that problem anymore.
+[TransformerGenerator_1]: I'm glad you are doing better. How many cupcakes do you have? I've at least 20 from my bakery
+   [TransformerGenerator_2]: Wow, that is a lot! I am a big fan of cakes, especially cupcake.
+[TransformerGenerator_1]: I bake quite a bit of cupcaked. I sell hundreds of them a day. Do you bake?
+   [TransformerGenerator_2]: I do. I make lots of cinnamon rolls. Those are my favorite. 
+[TransformerGenerator_1]: I love them as well. I also bake a lot of cherry pie as well
+   [TransformerGenerator_2]: I've never had cherries in a pie. Do they have those at your bakhouse? 
+[TransformerGenerator_1]: They do! Cherry in particular is my favorite, and it is delicious!   What is your favorite kind of pie?
+   [TransformerGenerator_2]: I really like apple pie! My favorite toppings are pecans, marshmallow creme, and cream cheese
+-- end of episode --
+17:04:35 | 15.0% complete (3 / 20), 0:26:49 elapsed, 2:32:02 eta
+[context]: your persona: i breed maine coon cats and show them.
+your persona: my parents recently moved to florida.
+i did too . it should have been bernie really .
+i agree , unlike bernie i have great eyesight tho lol
+   [context]: your persona: i like to only eat fish.
+your persona: i have amazing eye sight.
+i did too . it should have been bernie really .
+i agree , unlike bernie i have great eyesight tho lol
+[TransformerGenerator_1]: Me too! My eyesight is really good! I'd give anything to be able to see well.
+   [TransformerGenerator_2]: Where are you from? I'm from the US, but I live in Japan. What are your favorite fish?
+[TransformerGenerator_1]: I'm in Florida, and I love molluscs and crustaceans! What's Japan like?
+   [TransformerGenerator_2]: Japan is really beautiful and there is so much to see. It's the most populated country in the world.
+[TransformerGenerator_1]: I would love to visit! I didn't know that it was the most densely populated, that's interesting.
+   [TransformerGenerator_2]: Yeah! It is actually the fourth largest country in area. It really is a beautiful place.
+[TransformerGenerator_1]: It is a very beautiful place! It's also the most sparsely populous country in Asia.
+   [TransformerGenerator_2]: That is so true! It has the largest tropical climate in the Asia section of the world!
+[TransformerGenerator_1]: Are you sure? I thought Thailand was the largest country. But you're right.
+   [TransformerGenerator_2]: Oh no, Thai is the largest and most populus country in southeast Asia and the largest in the region.
+-- end of episode --
+17:14:07 | 20.0% complete (4 / 20), 0:36:22 elapsed, 2:25:28 eta
+[context]: your persona: i'm fairly conservative in politics.
+your persona: i work at amazon.
+Today was a great day. I was able to knock out a bunch of stuff that needed to be done and now I have the rest of the day to relax. Just sitting around with a nice cup of coffee. Very peaceful.
+Good to hear, coffee is the bomb!
+   [context]: your persona: i love comic books.
+your persona: my name is todd.
+Today was a great day. I was able to knock out a bunch of stuff that needed to be done and now I have the rest of the day to relax. Just sitting around with a nice cup of coffee. Very peaceful.
+Good to hear, coffee is the bomb!
+[TransformerGenerator_1]: It really is. Do you drink coffee? I like mine sweetened with sugar or with cream.
+   [TransformerGenerator_2]: I don't drink it all the time but I like sweetened iced coffee, or lattes
+[TransformerGenerator_1]: Lattes are really good. My favorite has to be a cappuccino though.
+   [TransformerGenerator_2]: I love cappoccinos, I like to put a scoop of vanilla in it
+[TransformerGenerator_1]: That sounds really good! I'll have to try that! Is it good mixed with milk too?
+   [TransformerGenerator_2]: I love it mixed with ice cream or milk! What about you? Do you like desserts?
+[TransformerGenerator_1]: Yes I like doughnuts, cookies, pastries, and frozen yogurt.
+   [TransformerGenerator_2]: I love pumpkin pie and french toast! What is your favorite desser?
+[TransformerGenerator_1]: I really like dancing with the stars, it is my favorite show.  Do you have a favorite?
+   [TransformerGenerator_2]: That's a great show! I really enjoy dance with the stones too! Have you ever seen them live?
+-- end of episode --
+17:21:58 | 25.0% complete (5 / 20), 0:44:13 elapsed, 2:12:39 eta
+[context]: your persona: my favorite singer is taylor swift.
+your persona: i'm married.
+Marriage
+Is it about getting ready for something in particular?
+No, not really. It is just an EP and song by British soul musician. Listen to it. You will like it
+   [context]: your persona: i am proposing tonight.
+your persona: i graduated college last week.
+Marriage
+Is it about getting ready for something in particular?
+No, not really. It is just an EP and song by British soul musician. Listen to it. You will like it
+[TransformerGenerator_1]: Wow, that sounds so interesting. What genre is it?  I'm listening to country music at the moment. 
+   [TransformerGenerator_2]: It is a pop country singer. Do you like country music?   I graduated from college last Wednesday, I still can't get enough of country music
+[TransformerGenerator_1]: Congratulations! That is a great accomplishment. Are you enjoying your time at school? 
+   [TransformerGenerator_2]: I do! What do you do in your spare time?  My biggest hobby is horseback riding. 
+[TransformerGenerator_1]: You are a horseback rider? That sounds like so much fun! Do you do it for pleasure?
+   [TransformerGenerator_2]: I do it as a recreational activity.  Have you ever ridden?  Do you think it's fun?
+[TransformerGenerator_1]: I haven't, but I've always been curious about it. I don't know why I never did.
+   [TransformerGenerator_2]: You should give it a try.  It's a lot of fun.  Do they have horses at your school?
+[TransformerGenerator_1]: They have hooligans, but no horsies.  What do your parents do for a living?
+   [TransformerGenerator_2]: They are retired now.  They used to be a police officer.  Before that they were firefighters.
+-- end of episode --
+17:30:52 | 30.0% complete (6 / 20), 0:53:07 elapsed, 2:03:57 eta
+[context]: your persona: i am a couponer.
+your persona: i like to keep my stockpile organised.
+Ford Mustang
+How long has the Ford company been around?
+May have to speak with someone knowledgeable about Ford. The original Ford Mustang was designed in 1962. It was a two seater  which evolved into a four-seater by 1963.
+   [context]: your persona: i play drums in a band.
+your persona: i drive a ford mustang.
+Ford Mustang
+How long has the Ford company been around?
+May have to speak with someone knowledgeable about Ford. The original Ford Mustang was designed in 1962. It was a two seater  which evolved into a four-seater by 1963.
+[TransformerGenerator_1]: Ford, the American multinational automotive company, has been around for over 100 years.
+   [TransformerGenerator_2]: Thats interesting. I like Ford cars. What kind of cars do you drive?   
+[TransformerGenerator_1]: I drive a Ford Focus and love it.  Do you have a favorite car company?
+   [TransformerGenerator_2]: I really like Chevrolet. The American car manufacturer has also been in business since 1896.
+[TransformerGenerator_1]: That's interesting. The company was founded by a group of investment bankers in 1903.
+   [TransformerGenerator_2]: That's right. The first Chevys were actually produced in Western Europe. They were called Commonwealth Cars.
+[TransformerGenerator_1]: That is cool. I didn't know that.  Chevrlet is now the biggest manufacturer of vehicles in the United States. 
+   [TransformerGenerator_2]: I didn’t know that, but it makes sense. The Chevron has been the fastest selling car in the US since 1981.
+[TransformerGenerator_1]: That's a good point.  It was found in 1948 as the Chevorlet Motor Car Company.
+   [TransformerGenerator_2]: Also, the company was sold as a subsidiary of GM Corporation in 1958.
+-- end of episode --
+17:41:12 | 35.0% complete (7 / 20), 1:03:27 elapsed, 1:57:50 eta
+[context]: your persona: i volunteer at the red cross on the weekends.
+your persona: i do yoga three times a week.
+My son started getting into a little bit of trouble and got kicked out of summer school on the first day, so he decided to sign up for a youth chalenge program
+Oh no. Well I hope that makes him better
+   [context]: your persona: i try to eat a balanced diet.
+your persona: i like rollerblading.
+My son started getting into a little bit of trouble and got kicked out of summer school on the first day, so he decided to sign up for a youth chalenge program
+Oh no. Well I hope that makes him better
+[TransformerGenerator_1]: Oh no. I bet he'll make it though. Do you know what kind of program it is?
+   [TransformerGenerator_2]: I don't, but I know that it is difficult for him to stay motivated in school. 
+[TransformerGenerator_1]: Oh, I see. It's good he has people to help him get motivated. I'm sure you are proud of him.
+   [TransformerGenerator_2]: Thank you!  Do you have kids?  I have two girls and I love getting to spend time with them.
+[TransformerGenerator_1]: No, I don' t have any kids. I wish I did though.  Do they enjoy sports?
+   [TransformerGenerator_2]: Yes, they enjoy watching sports.  They are really into basketball and soccer.  What do you like to do?
+[TransformerGenerator_1]: I like to play guitar and write poetry.  I love both of those things. 
+   [TransformerGenerator_2]: That sounds like a very cool and creative hobby.  How long have you been playing guitar? 
+[TransformerGenerator_1]: For about 15 years now.  It's really therapeutic to me.  Does your family play any instruments?
+   [TransformerGenerator_2]: No, they never did.  My mom used to play the piano but she passed away. 
+-- end of episode --
+17:49:44 | 40.0% complete (8 / 20), 1:11:58 elapsed, 1:47:58 eta
+[context]: your persona: my favorite color is blue.
+your persona: i like to read.
+at least he helps you . do you cook bake ?
+i bake on occasion its fun . are you married
+   [context]: your persona: my mother was a concert pianist.
+your persona: i have one little girl.
+at least he helps you . do you cook bake ?
+i bake on occasion its fun . are you married
+[TransformerGenerator_1]: Yes, I'm married to my lovely husband.   What type of cooking do you do?
+   [TransformerGenerator_2]: All kinds of cuisines. Mostly Italian food. Do you like to cook?
+[TransformerGenerator_1]: Yes, it is one of my favorite past times.  Do you have a favorite Italien dish?
+   [TransformerGenerator_2]: My favorite Itallian dish is spaghetti and meatballs.  What about you?
+[TransformerGenerator_1]: Mine is lasagna.  I love to make homemade lasagne.  Have you ever made it?
+   [TransformerGenerator_2]: Yes.  It is really delicious.  My husband makes it all the time!  I just love it so much.
+[TransformerGenerator_1]: Do you enjoy cooking as well?  I'm not the best at it but it's fun.
+   [TransformerGenerator_2]: I love cooking! I think it's so exciting how food can be made in so many different ways.
+[TransformerGenerator_1]: I think so too.  The word "cooking" was first documented in the 10th century in Greece.
+   [TransformerGenerator_2]: Wow, that's very interesting. What is your favorite dish to make?  Mine would have to be Sushi.
+-- end of episode --
+17:58:10 | 45.0% complete (9 / 20), 1:20:25 elapsed, 1:38:17 eta
+[context]: your persona: i like to swim.
+your persona: i hate tacos.
+no , i do not , i am allergic
+that sucks . you listen to music ?
+   [context]: your persona: my older sister plays clarinet.
+your persona: i've a pomeranian.
+no , i do not , i am allergic
+that sucks . you listen to music ?
+[TransformerGenerator_1]: I love music. What do you like to listen to? I listen to a lot of classic rock.
+   [TransformerGenerator_2]: i love classic rock . i listen to it while i drive my pom . what is your favorite classic rock band ?
+[TransformerGenerator_1]: I love Led Zeppelin. So classic! Do you ever go swimming? I love to go to the beach.
+   [TransformerGenerator_2]: I never got around to swimming in the ocean . i love to swim in lakes though .
+[TransformerGenerator_1]: I enjoy swimming on lakes as well. Do you live near a lake or lake?
+   [TransformerGenerator_2]: i live near many lakes . i used to live near lake winchester . how about you ?
+[TransformerGenerator_1]: I live near Lake Michigan in Lake Erie, so I am close to both.
+   [TransformerGenerator_2]: that is so cool . ive never been to michigan . have you been to any other lakes ?
+[TransformerGenerator_1]: I have been to Lake Superior, Lake McDonald, and Lake Victoria.
+   [TransformerGenerator_2]: that is cool . i have never been there . how was it ? lakes are great because you can see the oceans
+-- end of episode --
+18:06:20 | 50.0% complete (10 / 20), 1:28:35 elapsed, 1:28:35 eta
+[context]: your persona: my favorite color is grey.
+your persona: i work for a newspaper.
+The New York Times
+Never knew it was that old, fascinating, Do they do a new newspaper every day or is the new york times a weekly thing? 
+It is a daily publication and it is has weekly sections on various topics to supplement the regular daily news.
+   [context]: your persona: i don't have much energy.
+your persona: i am a stay at home mom.
+The New York Times
+Never knew it was that old, fascinating, Do they do a new newspaper every day or is the new york times a weekly thing? 
+It is a daily publication and it is has weekly sections on various topics to supplement the regular daily news.
+[TransformerGenerator_1]: Interesting, I'll have to check it out. What are your other favorite newspapers? 
+   [TransformerGenerator_2]: My favorite newpaper is the NY Times. It is the largest newspersonal paper in the US.
+[TransformerGenerator_1]: Very nice! It is impressive that the NYT has won 102 Pulitzer Prizes. Do you agree?
+   [TransformerGenerator_2]: I think it is very impressive. It has been the highest ranked newsporter in the United States since its founding in 1951.
+[TransformerGenerator_1]: Very cool. It sounds like a well regarded newspap company. Do your friends like it too?
+   [TransformerGenerator_2]: Yes. Most people consider the NY times to be the most innovative news paper in America.
+[TransformerGenerator_1]: That is great to hear. It seems like it will continue to grow as it is the world's leading newspape in journalism.
+   [TransformerGenerator_2]: That is true! It's been described as one of the most influential newspres in the world.
+[TransformerGenerator_1]: Yes it has and it has been around for quite some time. It was first registered in 1891 as the Mercantile Newspaper of the United State.
+   [TransformerGenerator_2]: Did you know that the Monsanto corporation owns the paper?  I didn't know that.
+-- end of episode --
+18:15:24 | 55.0% complete (11 / 20), 1:37:39 elapsed, 1:19:54 eta
+[context]: your persona: people say i can cook well.
+your persona: i like to listen to country music.
+Vietnamese cuisine
+Yes I like Vietnamese food and would love to know more about the spices in it and how its prepared.
+I know it's usually very fresh and they don't use much in the way of oil and dairy.
+   [context]: your persona: i cook well.
+your persona: i can speak three languages.
+Vietnamese cuisine
+Yes I like Vietnamese food and would love to know more about the spices in it and how its prepared.
+I know it's usually very fresh and they don't use much in the way of oil and dairy.
+[TransformerGenerator_1]: That's true. I love the Viet-Canadian food. I'm a sucker for street food.
+   [TransformerGenerator_2]: Me too. Even if it's from a food truck or restaurant, the street food is always good!
+[TransformerGenerator_1]: Yes, especially if it is from Thailand. They do the best street food in Thai food.
+   [TransformerGenerator_2]: I've never been to Thailland. What makes it so good? Is it delicious?
+[TransformerGenerator_1]: Yes, it's so delicious. It has a lot of Indian and Chinese influences, and the best food I've had there.
+   [TransformerGenerator_2]: I'll have to go sometime. Do they have a lot restaurants? Or is it more street food?
+[TransformerGenerator_1]: They have a bunch of restaurants. There are around 15,000 of them in Taiwan alone.
+   [TransformerGenerator_2]: Wow, that's so many. Are the restaurants on the beach, in the mountains, or somewhere in the city?
+[TransformerGenerator_1]: There are a few in the tourist areas of Thailsand, so I imagine they would be in the rural areas.
+   [TransformerGenerator_2]: Oh, that makes sense. I'll remember to check those restaurants out while I'm there.
+-- end of episode --
+18:25:16 | 60.0% complete (12 / 20), 1:47:30 elapsed, 1:11:41 eta
+[context]: your persona: i hate skiing.
+your persona: i broke my nose in 5th grade.
+I won a prize at the fair, it was ok I guess.
+What was the prize?
+   [context]: your persona: i'm very smart.
+your persona: i work as a janitor.
+I won a prize at the fair, it was ok I guess.
+What was the prize?
+[TransformerGenerator_1]: I won a trip to my local YMCA. It was exciting but nerve wracking.
+   [TransformerGenerator_2]: Congratulations! Is it the first time you went to the YMcA? How long have you been going?
+[TransformerGenerator_1]: Yes it is, it is the only time I have been. I've been going for about 10 years now.
+   [TransformerGenerator_2]: I bet you are looking forward to it then! What else do you do for fun? I like to be outside.
+[TransformerGenerator_1]: I love the outdoors as well, I love to fish and the beach. What about you?
+   [TransformerGenerator_2]: I like fishing too! One of my favorite activities is watching TV and listening to music.
+[TransformerGenerator_1]: I do that too. I usually listen to music while I do it. What is your favorite type of music?
+   [TransformerGenerator_2]: I listen to a little of everything, what kind of music do you like?  How old are you?
+[TransformerGenerator_1]: I am in my mid 30s. I love listening to Imagine Dragons. Have you ever heard of them?
+   [TransformerGenerator_2]: I've heard of Imagine Dragon, I've seen them in concert before, they're okay.
+-- end of episode --
+18:33:29 | 65.0% complete (13 / 20), 1:55:44 elapsed, 1:02:19 eta
+[context]: your persona: i spend an hour getting ready in the morning.
+your persona: i can t stand clutter or dust.
+no . it is just me and my cat . i still love her despite the allergies .
+i have a male sibling , we hardly ever talk
+   [context]: your persona: i like to give them sassy sounding names that actually help people think nice things.
+your persona: i think dogs could learn to read if they were trained well.
+no . it is just me and my cat . i still love her despite the allergies .
+i have a male sibling , we hardly ever talk
+[TransformerGenerator_1]: I am an only child, I miss my brothers a lot. I spend a lot of time with my cat.
+   [TransformerGenerator_2]: Cats are so nice. I do not have any, but would love one. What type do you have?
+[TransformerGenerator_1]: I have a maine coon cat, what kind do you want? They are the best.
+   [TransformerGenerator_2]: What kind of car do you drive? I have an Ford Focus. I love it.
+[TransformerGenerator_1]: I have the same car, I love my maine cooper. What do you do for work?
+   [TransformerGenerator_2]: I am a graphic designer for a small company. How about you?  What do YOU do?
+[TransformerGenerator_1]: That sounds fun. I work at a grocery store. I just started a new job recently.
+   [TransformerGenerator_2]: I wish I could work in a grocery, I'm a waitress. What state do you live in?
+[TransformerGenerator_1]: I live in california. What about you, how long have you been a waiter? 
+   [TransformerGenerator_2]: I've been waitress for 4 years now, do you like in cali? Where are you from?
+-- end of episode --
+18:41:21 | 70.0% complete (14 / 20), 2:03:36 elapsed, 0:52:58 eta
+[context]: your persona: my friend likes cartoons like south park.
+your persona: i like simple jokes.
+My daughter got into the university program of her choice. 
+That is a really exciting time. You must be so proud.
+   [context]: your persona: i graduated high school.
+your persona: i like rap music.
+My daughter got into the university program of her choice. 
+That is a really exciting time. You must be so proud.
+[TransformerGenerator_1]: Yes, we are very proud. My daughter got a scholarship to go to UC Berkeley.
+   [TransformerGenerator_2]: That's awesome. I hope to be a teacher one day. What did you go to school for?
+[TransformerGenerator_1]: I got my teaching degree at the University of Illinois. How about you?  Do you have kids?
+   [TransformerGenerator_2]: I do not have any kids yet. Maybe someday I will have my own. What do you do for fun?
+[TransformerGenerator_1]: I do like to go rock climbing when I have time. Do you do any outdoor activities?
+   [TransformerGenerator_2]: I love to hike when the weather allows. What is your favorite outdoors activity? 
+[TransformerGenerator_1]: I like hiking too. I would love to go backpacking when I go somewhere else.
+   [TransformerGenerator_2]: That sounds fun. How long have you been backpacking?  I have only been on a day hike.
+[TransformerGenerator_1]: I have been hiking since I was very young. Most of my hiking was on trails. 
+   [TransformerGenerator_2]: I would like to hibernate after backpacing for a while.  What kind of food do you like?
+-- end of episode --
+18:49:13 | 75.0% complete (15 / 20), 2:11:28 elapsed, 0:43:49 eta
+[context]: your persona: i just bought a new mansion.
+your persona: i drive a ferrari.
+i'm all about driving , fast and furious !
+oh ? swimming is my favorite activity . driving gets boring for me .
+   [context]: your persona: i love pasta.
+your persona: i love to swim.
+i'm all about driving , fast and furious !
+oh ? swimming is my favorite activity . driving gets boring for me .
+[TransformerGenerator_1]: Have you ever swam in a lake or ocean? They're beautiful!   What do you like to do for fun?
+   [TransformerGenerator_2]: I like to play sports, I love to play volleyball. What about you? 

@@ -19,7 +19,8 @@ output = open("combine_sgd.json", "w")
 transition_questions: Dict[str, str] = {
     k: f"Do you want to {v}?" for (k, v) in intent_description.items()
 }
-device = "cuda" if torch.cuda.is_available() else "cpu"
+# device = "cuda" if torch.cuda.is_available() else "cpu"
+device = "cpu"
 intent = {}
 intents = {}
 data = []
