@@ -1,0 +1,1077 @@
+[
+    [
+        {
+            "id": 0,
+            "text": "Where do you work?  I drive a big black car and my favorite art is guns n roses",
+            "intent": []
+        },
+        {
+            "id": 1,
+            "text": "I've never heard of them. I do not drive much. I'm a stay at home mom.",
+            "intent": []
+        },
+        {
+            "id": 2,
+            "text": "Do you have any kids?  How many?  Do you like to spend time with them?",
+            "intent": [
+                "FindAttractions"
+            ]
+        },
+        {
+            "id": 3,
+            "text": "I do have two kids. We like to go to movies. What about you?   ",
+            "intent": [
+                "FindMovies"
+            ]
+        },
+        {
+            "id": 4,
+            "text": "My favorite movie is gone with the wind.  Have you ever seen it?  It's my favorite. ",
+            "intent": [
+                "FindMovies"
+            ]
+        },
+        {
+            "id": 5,
+            "text": "I have never seen it. I should check it out sometime.  What kind of music do you like?",
+            "intent": []
+        },
+        {
+            "id": 6,
+            "text": "I like a lot of music. I like classical the most. What kind do you listen to?",
+            "intent": [
+                "LookupMusic"
+            ]
+        },
+        {
+            "id": 7,
+            "text": "A little bit of everything.  I am trying to learn more about music since I am a stay-at-home mom.",
+            "intent": []
+        },
+        {
+            "id": 8,
+            "text": "That's very nice. I would love to be a stayed-at home mom someday.",
+            "intent": []
+        },
+        {
+            "id": 9,
+            "text": "Me too!  I wish I had more time for hobbies.  Do yo have any hobbies?",
+            "intent": []
+        }
+    ],
+    [
+        {
+            "id": 0,
+            "text": "We don't have a lending system where I live. We just give each other cash.",
+            "intent": []
+        },
+        {
+            "id": 1,
+            "text": "That's what I do too. The interest is too high and I don't want to do anything",
+            "intent": []
+        },
+        {
+            "id": 2,
+            "text": "I understand. That would make things a lot easier.  What else do you do for fun?",
+            "intent": [
+                "FindAttractions"
+            ]
+        },
+        {
+            "id": 3,
+            "text": "I like to go biking. I am a veterinarian. What about you? ",
+            "intent": []
+        },
+        {
+            "id": 4,
+            "text": "I like drawing and playing video games.  I donate all my money to charity so I can do those things",
+            "intent": []
+        },
+        {
+            "id": 5,
+            "text": "That's a great idea. Do you have any hobbies? What video games do you like to play?",
+            "intent": []
+        },
+        {
+            "id": 6,
+            "text": "I play a lot of video games like Life is Strange.  Do you like video games?",
+            "intent": []
+        },
+        {
+            "id": 7,
+            "text": "I do like them, but not as much as I like biking! Do you ride bikes?",
+            "intent": []
+        },
+        {
+            "id": 8,
+            "text": "I have!  It's pretty fun!  Do your dogs like to ride biking with you?",
+            "intent": []
+        },
+        {
+            "id": 9,
+            "text": "They do! It's really fun watching them run around while I ride. How about you with your pets?",
+            "intent": []
+        }
+    ],
+    [
+        {
+            "id": 0,
+            "text": "That is true. Sometimes, people are too hard on themselves. I think the trick is to just be yourself.",
+            "intent": []
+        },
+        {
+            "id": 1,
+            "text": "Yes, exactly! So why don't you try and be yourself more often? Don't you find that it's so much fun?",
+            "intent": []
+        },
+        {
+            "id": 2,
+            "text": "I do! But I feel like it's impossible to be myself when everyone wants to be around me.",
+            "intent": []
+        },
+        {
+            "id": 3,
+            "text": "You can say this, \"I like you, but I'm not into you.\" I bet there's someone out there who feels the same way.",
+            "intent": []
+        },
+        {
+            "id": 4,
+            "text": "I'm sure there is. I need to be a little more confident about it. Maybe one day.",
+            "intent": []
+        },
+        {
+            "id": 5,
+            "text": "It will be hard, but you'll get there! Just be yourself and you'll meet the right person!",
+            "intent": []
+        },
+        {
+            "id": 6,
+            "text": "Thank you so much for the encouraging words. I really appreciate it. I hope you have a great day.",
+            "intent": []
+        },
+        {
+            "id": 7,
+            "text": "You too! Don't let people get you down, just get out there and find someone who will make you happy!",
+            "intent": []
+        },
+        {
+            "id": 8,
+            "text": "I'm trying. You're right. I just have to keep my head up. Thank you.",
+            "intent": []
+        },
+        {
+            "id": 9,
+            "text": "No problem! I'm rooting for you! Just stay positive! I believe you'll find someone soon!",
+            "intent": []
+        }
+    ],
+    [
+        {
+            "id": 0,
+            "text": "That sounds scary! I prefer the daytime, I really don't like being alone. It's kind of boring.",
+            "intent": []
+        },
+        {
+            "id": 1,
+            "text": "Yeah, I feel the same way. My romantic experiences have ended poorly so I wish I was more serious.",
+            "intent": [
+                "FindMovies"
+            ]
+        },
+        {
+            "id": 2,
+            "text": "I'm sorry to hear that! Romance isn't for everyone. I prefer being alone, that's why I'm single.",
+            "intent": [
+                "FindMovies"
+            ]
+        },
+        {
+            "id": 3,
+            "text": "Oh, yeah, I have no problem with being alone sometimes. What's your favorite food? ",
+            "intent": []
+        },
+        {
+            "id": 4,
+            "text": "I love everything spicy! What is yours? Do you have any favorite foods?   ",
+            "intent": []
+        },
+        {
+            "id": 5,
+            "text": "I love Indian food. I like spicy stuff, too! I also really love Korean food.",
+            "intent": []
+        },
+        {
+            "id": 6,
+            "text": "Me too! Kfc is my favorite fast food place. What is your favorite korean dish?",
+            "intent": []
+        },
+        {
+            "id": 7,
+            "text": "I love KFC, too. I usually get the chicken sandwich, because it's cheap. ",
+            "intent": []
+        },
+        {
+            "id": 8,
+            "text": "That's the best part about fast food! My two favorite kinds of food are KFC and Indian food!",
+            "intent": []
+        },
+        {
+            "id": 9,
+            "text": "What is it that you love about Indian food? I love the spicy sauces! ",
+            "intent": []
+        }
+    ],
+    [
+        {
+            "id": 0,
+            "text": "They really did. I loved spending time with my grandparents.    You? ",
+            "intent": []
+        },
+        {
+            "id": 1,
+            "text": "Yes, they are my world.  Do you have any memories with your grandparent?  ",
+            "intent": []
+        },
+        {
+            "id": 2,
+            "text": "Yes, we all used to help my grandmother when she was sick. It was very rewarding. ",
+            "intent": []
+        },
+        {
+            "id": 3,
+            "text": "That's great.  My grandparent took care of my grandfather when he was ill as well.  I miss that time when I was young.",
+            "intent": []
+        },
+        {
+            "id": 4,
+            "text": "I'm so glad to hear you had such a great grandparent to care for you when you were young. ",
+            "intent": []
+        },
+        {
+            "id": 5,
+            "text": "That is very kind of you to say.  What happened to your grandfarther?  Did he pass away recently?",
+            "intent": []
+        },
+        {
+            "id": 6,
+            "text": "Yes, he passed away several years ago. He was pretty sick for a long time.  His death was unexpected.",
+            "intent": []
+        },
+        {
+            "id": 7,
+            "text": "I'm sorry for your loss.  Did you have a lot of good memories of him? ",
+            "intent": []
+        },
+        {
+            "id": 8,
+            "text": "Well, yes I had many memories with him.  He was always there for me when I needed him.",
+            "intent": []
+        },
+        {
+            "id": 9,
+            "text": "That is wonderful.  We need more people like that in the world. I'm glad you still have great memories of your grandpa. ",
+            "intent": []
+        }
+    ],
+    [
+        {
+            "id": 0,
+            "text": "No I'm the youngest. I live with my adoptive dad.  He works at HP.",
+            "intent": []
+        },
+        {
+            "id": 1,
+            "text": "wow thats cool . do you get to see him often ? how long have you been with him ?",
+            "intent": []
+        },
+        {
+            "id": 2,
+            "text": "I see him every weekend.  I've only been with my dad for about 8 years.  What about you?",
+            "intent": []
+        },
+        {
+            "id": 3,
+            "text": "My husband and I have been married 10 yrs, so it is easy to see each other a lot. ",
+            "intent": []
+        },
+        {
+            "id": 4,
+            "text": "Wow, that's amazing.  Congrats!  I hope to get married in the near future.",
+            "intent": []
+        },
+        {
+            "id": 5,
+            "text": "I hope you get married.  It is a lot of fun.  My wife and I started dating in high school.",
+            "intent": []
+        },
+        {
+            "id": 6,
+            "text": "It sounds like you've found your soulmate, congratulations.  Do you have any kids?",
+            "intent": []
+        },
+        {
+            "id": 7,
+            "text": "Yes, I have two kids.  They are 16 and 16.  Are you married with kids? ",
+            "intent": [
+                "FindAttractions"
+            ]
+        },
+        {
+            "id": 8,
+            "text": "Yes, a little boy and daughter who are now in highschool.  How old are your kids?",
+            "intent": [
+                "FindAttractions"
+            ]
+        },
+        {
+            "id": 9,
+            "text": "2 and 5 years old.  We all have a lot in common with each other.  Where are you from?",
+            "intent": []
+        }
+    ],
+    [
+        {
+            "id": 0,
+            "text": "I love eating eggs! I don't like hard boiled though. Do you like hardboiled eggs?",
+            "intent": []
+        },
+        {
+            "id": 1,
+            "text": "I love hard boil. Do u have any hobbies? I like to cook and drink tea",
+            "intent": []
+        },
+        {
+            "id": 2,
+            "text": "I really enjoy taking care of my cats. I also enjoy playing with them and hanging out with them. What about you?",
+            "intent": []
+        },
+        {
+            "id": 3,
+            "text": "I love animals. I've two pugs. Cats are the best. What's your cats name?",
+            "intent": []
+        },
+        {
+            "id": 4,
+            "text": "My cats name is Boomer. Do your pugs have a name?  I've always wanted to get a pug",
+            "intent": []
+        },
+        {
+            "id": 5,
+            "text": "They don't have a specific name. I just call them all cats lol. What kind of dog do you want?",
+            "intent": []
+        },
+        {
+            "id": 6,
+            "text": "Any kind really. I'd love to have a beagle or a poodle. Do they shed much?",
+            "intent": []
+        },
+        {
+            "id": 7,
+            "text": "They do not shed at all. They do shed a lot, however, and they need lots of grooming. Do poodles have a good sense of smell?",
+            "intent": []
+        },
+        {
+            "id": 8,
+            "text": "Yes, they definitely do. Poodles are a breed of hairless dog and they are supposed to be easy to take care of.",
+            "intent": []
+        },
+        {
+            "id": 9,
+            "text": "Are they the best breed for a first dog? I'd like to get one that would be easier to train.",
+            "intent": []
+        }
+    ],
+    [
+        {
+            "id": 0,
+            "text": "Wow, that's a big cat! I do yowa everyday and I have a cat.",
+            "intent": []
+        },
+        {
+            "id": 1,
+            "text": "Oh really? I do not know much about yoga, is it all about meditation?",
+            "intent": []
+        },
+        {
+            "id": 2,
+            "text": "It is a form of yogic meditation. Do you practice any kind of yin yogurt?",
+            "intent": []
+        },
+        {
+            "id": 3,
+            "text": "No, I have never done yogurat. Have you heard of the Appalachian trail? That is where I want to travel to one day.",
+            "intent": []
+        },
+        {
+            "id": 4,
+            "text": "I have! Do you have any other hobbies? Mine are basketball, rock climbing, and video games.",
+            "intent": []
+        },
+        {
+            "id": 5,
+            "text": "I like to play video games too. What console do you play on?  I also like to eat.",
+            "intent": []
+        },
+        {
+            "id": 6,
+            "text": "I play on xbox. I enjoy eating as well. What type of food do you like?",
+            "intent": []
+        },
+        {
+            "id": 7,
+            "text": "I like burgers, but I'm trying to eat healthier. How about you?  What do you do for a living?",
+            "intent": []
+        },
+        {
+            "id": 8,
+            "text": "I work at a coffeehouse. What about you, what do you want to do for work?",
+            "intent": []
+        },
+        {
+            "id": 9,
+            "text": "I have no idea at the moment. I am still in high school. Whats your favorite kind of food?",
+            "intent": []
+        }
+    ],
+    [
+        {
+            "id": 0,
+            "text": "I had a friend in college who was really into the show, she always liked the colors and patterns.",
+            "intent": []
+        },
+        {
+            "id": 1,
+            "text": "My friend was into the toy and she told me she wanted to dress up like the pony characters and go to conventions",
+            "intent": []
+        },
+        {
+            "id": 2,
+            "text": "what do you mean she wanted dress up? is it like a MLP convention or something else?",
+            "intent": []
+        },
+        {
+            "id": 3,
+            "text": "Yeah, she wanted too dress up as the pegasus and fly around the world. Her parents let her",
+            "intent": []
+        },
+        {
+            "id": 4,
+            "text": "that sounds awesome. I'm glad she was able to do that.  Was it fun? ",
+            "intent": []
+        },
+        {
+            "id": 5,
+            "text": "It was! She got to meet a lot of famous people and flew around in the sky.",
+            "intent": []
+        },
+        {
+            "id": 6,
+            "text": "that's so cool!  I wish my friends were that creative.  She sounds like a real catch.",
+            "intent": []
+        },
+        {
+            "id": 7,
+            "text": "She was! What kind of stuff do you do in your spare time?  Do you like music?",
+            "intent": []
+        },
+        {
+            "id": 8,
+            "text": "I play guitar, and I do like music. What about you? What kind do you like?",
+            "intent": [
+                "LookupMusic"
+            ]
+        },
+        {
+            "id": 9,
+            "text": "I enjoy classic rock. My favorite band is the cramps. What bands do you listen to?",
+            "intent": []
+        }
+    ],
+    [
+        {
+            "id": 0,
+            "text": "That's interesting.  I wish I could speak more languages, it would be a lot easier.  Do you speak more then one language?",
+            "intent": []
+        },
+        {
+            "id": 1,
+            "text": "No, I speak Spanish and French. It is hard for me to learn a second language. I wish i knew more languages",
+            "intent": []
+        },
+        {
+            "id": 2,
+            "text": "That's cool.  One day I hope to learn more languages too.  Right now I am focusing on german.",
+            "intent": []
+        },
+        {
+            "id": 3,
+            "text": "What motivated you to learn german? I think it is cool how German is the second most widely spoken language in the world",
+            "intent": []
+        },
+        {
+            "id": 4,
+            "text": "Well, it has its roots in the Roman empire, and it was the third most spoken in Europe after English and French",
+            "intent": []
+        },
+        {
+            "id": 5,
+            "text": "Very interesting. I didn't know that. Thanks for the history lesson.  Have a great day!",
+            "intent": []
+        },
+        {
+            "id": 6,
+            "text": "You as well! Thanks for chatting with me!  Take care.  And take care of yourself.",
+            "intent": []
+        },
+        {
+            "id": 7,
+            "text": "You too! Have a good day! XD!  Good luck in your studies! :D",
+            "intent": []
+        },
+        {
+            "id": 8,
+            "text": "I appreciate it!  And good luck with your studying as well.  No more Reddit for me! :)",
+            "intent": []
+        },
+        {
+            "id": 9,
+            "text": "No more reddit for me either, thank you so much! :) You do the same! :) ",
+            "intent": []
+        }
+    ],
+    [
+        {
+            "id": 0,
+            "text": "Oh that's cool. Do you like your job? I actually just started at my bank. ",
+            "intent": []
+        },
+        {
+            "id": 1,
+            "text": "Its okay, but its not really my goal in life. What do you do at your bank?",
+            "intent": []
+        },
+        {
+            "id": 2,
+            "text": "I work as a teller at my local bank. It's not the best job, but it pays the bills. ",
+            "intent": []
+        },
+        {
+            "id": 3,
+            "text": "That sounds like a good job. We need more people like you in this world.  lol ",
+            "intent": []
+        },
+        {
+            "id": 4,
+            "text": "Thanks, I appreciate that. Most of my coworkers are pretty cool people. You'd probably enjoy it! ",
+            "intent": []
+        },
+        {
+            "id": 5,
+            "text": "I'm sure I would. It would be nice to work at a place where people are nice. ",
+            "intent": []
+        },
+        {
+            "id": 6,
+            "text": "It would! Do you have any hobbies? I play lots of card games. \\ ",
+            "intent": []
+        },
+        {
+            "id": 7,
+            "text": "I've always enjoyed gardening. What kind of card game do you play? ! ",
+            "intent": []
+        },
+        {
+            "id": 8,
+            "text": "I play Pokemon. You can download the game online. It is super fun.  What kind do you like?",
+            "intent": []
+        },
+        {
+            "id": 9,
+            "text": "I enjoy YuGiOh. It can be a little addictive. Have you ever played it?",
+            "intent": [
+                "PlaySong"
+            ]
+        }
+    ],
+    [
+        {
+            "id": 0,
+            "text": "That sounds like a lot of fun!  What kind of food is it?  I could go for some pasta or something.",
+            "intent": []
+        },
+        {
+            "id": 1,
+            "text": "pasta is great. i am excited to try it. what type of food are you most excited to eat?",
+            "intent": []
+        },
+        {
+            "id": 2,
+            "text": "I love pasta.  It's one of the most common food items in the world.  Do you have any other favorites?",
+            "intent": []
+        },
+        {
+            "id": 3,
+            "text": "I love hot dogs with pepperoni and ketchup.  What is your favorite type of pasta?",
+            "intent": []
+        },
+        {
+            "id": 4,
+            "text": "I love Italian food and italians in general, so I would say fettuccine.",
+            "intent": []
+        },
+        {
+            "id": 5,
+            "text": "That's a great choice.  I also like spaghetti and meatballs, but I think fettuuccini is my favorite too.",
+            "intent": []
+        },
+        {
+            "id": 6,
+            "text": "I would love to travel to Italy someday, and try the authentic stuff. I think my favorite is spagetti with meatball sauce, and meat balls as well.",
+            "intent": []
+        },
+        {
+            "id": 7,
+            "text": "Do you also like lasagna? It's basically a flatbread usually filled with tomato sauce and cheese, and then baked in the oven. ",
+            "intent": []
+        },
+        {
+            "id": 8,
+            "text": "I do like lasagnna, but not as much as I love spageti and tomatoes. I can make it, but it's never quite right.",
+            "intent": []
+        },
+        {
+            "id": 9,
+            "text": "It's definitely a favorite of mine and one of my favorite dishes. It's a shame you can't make it right. ",
+            "intent": []
+        }
+    ],
+    [
+        {
+            "id": 0,
+            "text": "That's good. My parents were separated when I was 12. Now I'm in college and happy.",
+            "intent": []
+        },
+        {
+            "id": 1,
+            "text": "My parents divorce was pretty dramatic, so I was only 13 when it ended, and I was fine with it. How old are you now?",
+            "intent": []
+        },
+        {
+            "id": 2,
+            "text": "I am 25 now. What do you do for a living? I'm a vet. I love it.",
+            "intent": []
+        },
+        {
+            "id": 3,
+            "text": "I am a teacher. I hate it, but it pays the bills. Do you have any pets?",
+            "intent": []
+        },
+        {
+            "id": 4,
+            "text": "I have two cats. They're pretty much my children.  Haha.  What kind of pets do you have?",
+            "intent": []
+        },
+        {
+            "id": 5,
+            "text": "I have a boston terrier, and a basset hound. They keep me busy.",
+            "intent": []
+        },
+        {
+            "id": 6,
+            "text": "I bet! I have never owned a dog, but I bet they're a lot of work!",
+            "intent": []
+        },
+        {
+            "id": 7,
+            "text": "The boston's definitely take up most of my time. What about you? What do your parents do?",
+            "intent": []
+        },
+        {
+            "id": 8,
+            "text": "My mom is a teacher and my dad is a physician, but both of them are retired now.",
+            "intent": []
+        },
+        {
+            "id": 9,
+            "text": "Well, that sounds pretty interesting. What subject do you teach?  My dad is an accountant.",
+            "intent": []
+        }
+    ],
+    [
+        {
+            "id": 0,
+            "text": "I have a dog. He's a labrador.  Do you like dogs? ",
+            "intent": []
+        },
+        {
+            "id": 1,
+            "text": "Yes. I have 2 of them. They are the best. I just love them.  ",
+            "intent": []
+        },
+        {
+            "id": 2,
+            "text": "I grew up with a small dog named Woof.  What is your dogs name? ",
+            "intent": []
+        },
+        {
+            "id": 3,
+            "text": "My dog's name is Fido. He loves eating flowers.  Have you ever had a dog?",
+            "intent": []
+        },
+        {
+            "id": 4,
+            "text": "I have had many dogs over the years. Do you have a big family?  I've got three.",
+            "intent": []
+        },
+        {
+            "id": 5,
+            "text": "I've a small family myself.  I moved a lot when I was younger so it was hard to find a family.",
+            "intent": []
+        },
+        {
+            "id": 6,
+            "text": "It is nice to have a large family. It has its benefits. What do you do for a living?",
+            "intent": []
+        },
+        {
+            "id": 7,
+            "text": "I am a librarian at a local college.  How about yourself?  What do your parents do?",
+            "intent": [
+                "FindAttractions"
+            ]
+        },
+        {
+            "id": 8,
+            "text": "My father is an accountant. My mother is a doctor. Both of my parents are physicians. ",
+            "intent": []
+        },
+        {
+            "id": 9,
+            "text": "Do you ever want to be a doctor like your parents?  It seems like a fun profession.",
+            "intent": []
+        }
+    ],
+    [
+        {
+            "id": 0,
+            "text": "I am sorry to hear that. Did you get in an accidents or was it an accident?",
+            "intent": []
+        },
+        {
+            "id": 1,
+            "text": "i was in a car accident while i was on a farm . i lost it there . i am a farmberer .",
+            "intent": []
+        },
+        {
+            "id": 2,
+            "text": "Oh wow, I'm so sorry to here that. Was it a life long accident or just a minor one?",
+            "intent": []
+        },
+        {
+            "id": 3,
+            "text": "the accident happened over night . it was a life threatening injury . what do you do ? farmer ?",
+            "intent": []
+        },
+        {
+            "id": 4,
+            "text": "I am a nurse and have been for 12 years. My husband is a carpenter.",
+            "intent": []
+        },
+        {
+            "id": 5,
+            "text": "wow that's interesting . i'm studying to be a nurses too . what kind of work do you and your husband do ?",
+            "intent": []
+        },
+        {
+            "id": 6,
+            "text": "My husband works in the medical field and he is an orthopedic surgeon. Do you have any hobbies?",
+            "intent": []
+        },
+        {
+            "id": 7,
+            "text": "I like to hike and run . I also like to play video games and read books . What about you ?",
+            "intent": []
+        },
+        {
+            "id": 8,
+            "text": "I like the outdoors and playing video games too. I also enjoy camping. Do what makes you happy.",
+            "intent": []
+        },
+        {
+            "id": 9,
+            "text": "that's good . what part of the world do you live in ?  i live in the southern part",
+            "intent": []
+        }
+    ],
+    [
+        {
+            "id": 0,
+            "text": "What kind of dog do you have? My dog would love to go with me, but I don't want to cause him any discomfort.",
+            "intent": []
+        },
+        {
+            "id": 1,
+            "text": "i have a frenchie he can be kind of a handful. what kind of dogs do you own?",
+            "intent": []
+        },
+        {
+            "id": 2,
+            "text": "I have a Labrador, he's a great dog but doesn't enjoy ski trips. Do you go skiiing much?",
+            "intent": []
+        },
+        {
+            "id": 3,
+            "text": "yes i do! it was my favorite thing to do as a kid. what does your lab like to do?",
+            "intent": []
+        },
+        {
+            "id": 4,
+            "text": "He loves to run, and he loves being close to people.  What do you do for work?",
+            "intent": []
+        },
+        {
+            "id": 5,
+            "text": "i just started a job at a pharmacy. what do you like to eat? i love pizza.",
+            "intent": []
+        },
+        {
+            "id": 6,
+            "text": "I'm a chef, what pharma store do you work at?  I love pizza too, but need to watch my calories!",
+            "intent": []
+        },
+        {
+            "id": 7,
+            "text": "right now i work at a local grocery store. I eat out a lot though. you?",
+            "intent": []
+        },
+        {
+            "id": 8,
+            "text": "I try to, but it's hard at work sometimes.  How long have you been a chefer?",
+            "intent": []
+        },
+        {
+            "id": 9,
+            "text": "2 years. it is hard at times but it pays good. what about you? do you enjoy your work?",
+            "intent": []
+        }
+    ],
+    [
+        {
+            "id": 0,
+            "text": "That's unfortunate. I'm leaving college in 3 months, and Walmart isn't allowed there either. ",
+            "intent": []
+        },
+        {
+            "id": 1,
+            "text": "What are you going to school for? If it's anything like pianos, you will love it.",
+            "intent": []
+        },
+        {
+            "id": 2,
+            "text": "I'm going for accounting. I love piano music, so that's what I'm taking in college.",
+            "intent": []
+        },
+        {
+            "id": 3,
+            "text": "In my opinion, music is the most important thing you can do with your life. I wish I had gotten into music when I was younger. ",
+            "intent": []
+        },
+        {
+            "id": 4,
+            "text": "I know what you mean. It's kind of therapeutic to me, too.",
+            "intent": []
+        },
+        {
+            "id": 5,
+            "text": "I can definitely understand that. Therapy is great for the soul.  Who's your favorite artist?",
+            "intent": []
+        },
+        {
+            "id": 6,
+            "text": "I don't really have a favorite artist. I just love listening to music.  What about you?",
+            "intent": [
+                "LookupMusic",
+                "PlaySong"
+            ]
+        },
+        {
+            "id": 7,
+            "text": "I love a lot of different artists.  My favorite artists are Taylor Swift and Adele.",
+            "intent": [
+                "LookupMusic"
+            ]
+        },
+        {
+            "id": 8,
+            "text": "I can't say that I know too much about Tay Tay. What do you like about her?",
+            "intent": []
+        },
+        {
+            "id": 9,
+            "text": "She's a multi-instrumentalist.  She uses a lot different elements in her music to express herself.",
+            "intent": [
+                "LookupMusic"
+            ]
+        }
+    ],
+    [
+        {
+            "id": 0,
+            "text": "I didn't know that! It must have been a long time ago. How long do you think it will last?",
+            "intent": []
+        },
+        {
+            "id": 1,
+            "text": "I'm not sure, but it is one of the world's most read newspapers. ",
+            "intent": []
+        },
+        {
+            "id": 2,
+            "text": "That's cool. I read a lot of New York times too. Do you have any other pets?",
+            "intent": []
+        },
+        {
+            "id": 3,
+            "text": "I don't have any pets right now.  How about you?  What's your favorite color?",
+            "intent": []
+        },
+        {
+            "id": 4,
+            "text": "I have two cats and a dog. I love all of them. I really love red! What about you",
+            "intent": []
+        },
+        {
+            "id": 5,
+            "text": "I really like blue.  It's a pretty color.  What else do you like to do for fun?",
+            "intent": []
+        },
+        {
+            "id": 6,
+            "text": "I like to read and play games on my laptop. What about yourself? Do you like doing anything fun? ",
+            "intent": []
+        },
+        {
+            "id": 7,
+            "text": "I like reading and playing video games too.  I also like to spend time with my husband. ",
+            "intent": []
+        },
+        {
+            "id": 8,
+            "text": "Sounds like you have a lot going on in your life! How long have you been married? ",
+            "intent": []
+        },
+        {
+            "id": 9,
+            "text": "It's been eight years this June.  We have been married for 20 years. ",
+            "intent": []
+        }
+    ],
+    [
+        {
+            "id": 0,
+            "text": "I don't think I could handle it. I'm sorry you haven't been sleeping well. ",
+            "intent": []
+        },
+        {
+            "id": 1,
+            "text": "me too . i can barely get out of bed at night because of my narcolepsy .",
+            "intent": []
+        },
+        {
+            "id": 2,
+            "text": "Oh, I'm so sorry! How do you deal with it? Is there anything you can do to help?",
+            "intent": []
+        },
+        {
+            "id": 3,
+            "text": "I take medication and take naps at night. They are sometimes used to treat Narcolepse, but I don;t think it helps that much.",
+            "intent": []
+        },
+        {
+            "id": 4,
+            "text": "I have never heard of naps being used for narcolegpse before. Is that something you have tried?",
+            "intent": []
+        },
+        {
+            "id": 5,
+            "text": "I've never tried it, but my friends have told me it can help. I think I'll try it the next time I feel a panic attack.",
+            "intent": []
+        },
+        {
+            "id": 6,
+            "text": "If you do, I hope you feel better! I'd try it if I were you. Good luck!",
+            "intent": []
+        },
+        {
+            "id": 7,
+            "text": "Thank you, and same to you! You seem like a really nice person. Take care! :)",
+            "intent": []
+        },
+        {
+            "id": 8,
+            "text": "You too! Take care and be careful out there! :) I wish you the best of luck!",
+            "intent": []
+        },
+        {
+            "id": 9,
+            "text": "Thank you! Same to you, have a great day! :) Take care. :))))",
+            "intent": []
+        }
+    ],
+    [
+        {
+            "id": 0,
+            "text": "Do you know what Hot Chilli Pepper is? It is a band formed in Los Angeles, California.",
+            "intent": []
+        },
+        {
+            "id": 1,
+            "text": "No,I've not heard of Hot Chile Pepper before,what kind of music is it?",
+            "intent": []
+        },
+        {
+            "id": 2,
+            "text": "It is rock. It was formed by the band's members Anthony Kiedis, Flea, and Chad Smith. ",
+            "intent": []
+        },
+        {
+            "id": 3,
+            "text": "I believe Anthon Kiedes was born in 1974,I don't know much about him other than that.",
+            "intent": []
+        },
+        {
+            "id": 4,
+            "text": "Yes, he was born on March 8, 1981. He joined the group in 1985.",
+            "intent": []
+        },
+        {
+            "id": 5,
+            "text": "Is he a singer, bassist, rhythm guitarist, and vocalist?",
+            "intent": []
+        },
+        {
+            "id": 6,
+            "text": "He is the lead vocal, guitarist and rhythem guitar player. He also does vocals.",
+            "intent": []
+        },
+        {
+            "id": 7,
+            "text": "I believe I have heard one of his songs before, it was called \"Purple Haze\".",
+            "intent": [
+                "LookupMusic"
+            ]
+        },
+        {
+            "id": 8,
+            "text": "Yes, that was the name of the first song he made. He released his debut album in 1990.",
+            "intent": []
+        },
+        {
+            "id": 9,
+            "text": "I'll have to listen to more of his stuff, maybe I'll be able to find a few of his other hits.",
+            "intent": [
+                "LookupMusic"
+            ]
+        }
+    ]
+]
